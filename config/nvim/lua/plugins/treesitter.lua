@@ -1,0 +1,30 @@
+return {
+  "nvim-treesitter/nvim-treesitter",
+  opts = {
+    ensure_installed = {
+      "bash",
+      "css",
+      "diff",
+      "dockerfile",
+      "dot",
+      "gitattributes",
+      "gitcommit",
+      "gitignore",
+      "go",
+      "gomod",
+      "gosum",
+      "gowork",
+      "graphql",
+      "hcl",
+      "json",
+      "json5",
+      "markdown",
+      "markdown_inline",
+      "terraform",
+      "yaml",
+    },
+    highlight = {
+      enable = true,
+    },
+  },
+}
